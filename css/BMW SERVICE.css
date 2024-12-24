@@ -1,4 +1,4 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
 :root {
   --main-color: #024CAA;
@@ -17,7 +17,7 @@
 body{
     background-color: black;
     color: white;
-  font-family: "Playfair Display", serif;
+  font-family: "Bebas Neue", serif;
      padding-left: 70px;
      padding-right: 70px;
 }
@@ -37,7 +37,7 @@ body{
   color:#024CAA;
   justify-content: space-between;
   align-items: center;
-font-family: "Playfair Display", serif;
+  font-family: "Bebas Neue", serif;
 
 }
 .header .logo {
@@ -92,7 +92,7 @@ font-family: "Playfair Display", serif;
   padding: 10px;
   text-decoration: none;
   color: #ffffff;
-font-family: "Playfair Display", serif;
+  font-family: "Bebas Neue", serif;
   
   transition: var(--main-duration);
 }
@@ -149,7 +149,7 @@ video {
 .landing .text .content {
   max-width: 500px;
   
-font-family: "Playfair Display", serif;
+  font-family: "Bebas Neue", serif;
 }
 @media (max-width: 767px) {
   .landing .text {
@@ -165,12 +165,12 @@ font-family: "Playfair Display", serif;
   line-height: 1.5;
   margin-bottom: 20px;
   color: #ffffff;
-font-family: "Playfair Display", serif;
+  font-family: "Bebas Neue", serif;
 }
 .landing .text .content p {
   font-size: 14px;
   line-height: 2;
- font-family: "Playfair Display", serif;
+  font-family: "Bebas Neue", serif;
 }
 .landing .change-background {
   position: absolute;
@@ -221,7 +221,7 @@ button {
   color: white;
   transition: 1s;
   border-radius: 0.3em;
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "Bebas Neue", serif;
   font-size: 40px;
     letter-spacing: 5px;
   font-weight: bold;
@@ -443,14 +443,13 @@ button {
     #99ccff 50%,
     #000000 50%
   ); width: 100%;
-}
-/* Start Footer */
+}/* Start Footer */
 .footer {
   background-color: #000000;
-  padding: 70px 0 0;
-   border-top: 0.5px solid #444;
+  padding: 40px 0 0;
+  border-top: 0.5px solid #444;
 }
-@media (max-width: 767px) {
+@media (max-width: 700px) {
   .footer {
     text-align: center;
   }
@@ -458,10 +457,9 @@ button {
 .footer .container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 60px;
 }
 .footer .box h3 {
-  color: #024CAA;
+  color: #024caa;
   font-size: 50px;
   margin: 0 0 20px;
 }
@@ -493,23 +491,21 @@ button {
 .footer .box .text {
   line-height: 2;
   width: 218px;
-  color: #b9b9b9;
+  color: #ffffff;
   margin: 0px;
   font-size: 30px;
 }
 .footer .box .links li {
   padding: 15px 0;
- 
+
   transition: var(--main-transition);
 }
-.footer .box .links li:not(:last-child) {
-  border-bottom: 1px solid #444;
-}
+
 .footer .box .links li:hover {
   padding-left: 10px;
 }
 .footer .box .links li:hover a {
-  color: white;
+  color: #024caa;
 }
 .footer .box .links li a {
   color: #b9b9b9;
@@ -530,7 +526,7 @@ button {
 }
 .footer .box .line i {
   font-size: 25px;
-  color:#024CAA;
+  color: #024caa;
   margin-right: 10px;
 }
 @media (max-width: 767px) {
